@@ -1,0 +1,61 @@
+[14:53, 21/12/2019] +56 9 9635 0950: css
+[14:53, 21/12/2019] +56 9 9635 0950: * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+main {
+    display: grid;
+
+}
+img {
+    width: 93px;
+    height: 93px;
+}
+.contenedor-principal{
+    width: 500px;
+    padding: 10px 15px;
+    margin: 0 auto;
+    background: #effffb;
+    border: tomato;
+    border-radius: 20px;
+}
+.caja-artistas {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.34%;
+}
+
+.caja-artista {
+    width: 150px;
+    height: 150%;
+}
+
+.caja-artista {
+    width: 140px;
+    height: 140px;
+    display: grid;
+    justify-content: center;
+    background: #89f0e7 ;
+    border: 1px solid #02a8a8;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.caja-artista img {
+    border-radius: 50% ;
+}
+
+.caja-artista p {
+    color: #fff;
+    text-align: center;
+}
+
+.cabecera-principal {
+    text-align: center;
+}
+header h1 {
+    text-align: center;
+}
